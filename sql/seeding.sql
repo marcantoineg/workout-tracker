@@ -56,7 +56,3 @@ ex AS (
 )
 INSERT INTO exercise_workout (workout_id, exercise_id)
 SELECT wo.id, ex.id FROM wo, ex;
-
-TRUNCATE exercise_set CASCADE;
-TRUNCATE exercise CASCADE;
-TRUNCATE workout CASCADE;
