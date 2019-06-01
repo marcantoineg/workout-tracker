@@ -41,6 +41,11 @@ This template use the following libraries.
   ```
     psql -U <user> -h 127.0.0.1 < sql/init.sql
   ```
+* run `sql/seeding.sql` to seed the database.
+  ```
+    psql -U <user> -h 127.0.0.1 < sql/seeding.sql
+  ```
+  note: user should be postgres
 
 ### Start the application
 To start the application run the following command. You can setup a run configuration

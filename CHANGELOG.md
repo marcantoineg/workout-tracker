@@ -13,3 +13,4 @@ The whole app ¯\\\_(ツ)_/¯
 - Workouts table, repo, service & route
 - Exercises table, repo, service & route
 - [Exercise]Set table, repo, service & route
+- Seeding script
